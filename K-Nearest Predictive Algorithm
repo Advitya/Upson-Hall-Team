@@ -21,7 +21,7 @@ for a = 2:1:6
       else
         for t = 1:1:a-1
           for p = -1:1:4
-            sum = sum + measured(ind-679*t+p)/abs(t^2*(p+2__;
+            sum = sum + measured(ind-679*t+p)/abs(t^2*(p+2);
           end
         end
       end
